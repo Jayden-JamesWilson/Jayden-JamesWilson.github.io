@@ -11,27 +11,23 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f2f2f2;
+    background-color: whitesmoke;
 }
 
-.TabButton 
-{
+.TabButton {
     padding: 1vh 2vh;
     min-height: 50px;
     min-width: 150px;
-
-    margin: 2vh;
     padding: 10px 20px;
-    margin: 2px;
     border: none;
-    background-color: #4CAF50;
-    color: white;
+    color: darkgrey;
+    background-color: whitesmoke;
     cursor: pointer;
     border-radius: 3px;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .TabButton:hover 
 {
-    background-color: #45a049;
+    border-color: lightgrey;
 }
