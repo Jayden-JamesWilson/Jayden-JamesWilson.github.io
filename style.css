@@ -29,5 +29,21 @@ body
 
 .TabButton:hover 
 {
-    border-color: lightgrey;
+    background-color: lightgrey;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+    .TabArea {
+        /* Adjust the size for mobile */
+        min-height: 10vh;
+    }
+
+    .TabButton {
+        /* Adjust the size for mobile */
+        min-height: 70px;
+        min-width: 200px;
+        padding: 15px 25px;
+        font-size: 20px;
+    }
 }
