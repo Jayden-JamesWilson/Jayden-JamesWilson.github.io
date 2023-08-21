@@ -36,9 +36,9 @@ body
 @media (max-width: 768px) {
     .TabArea {
         /* Adjust the size for mobile */
-        min-height: 10vh;
+        min-height: 20vh;
     }
-
+    
     .TabButton {
         /* Adjust the size for mobile */
         min-height: 70px;
