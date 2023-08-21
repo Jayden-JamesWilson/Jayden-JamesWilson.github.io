@@ -33,12 +33,7 @@ body
 }
 
 /* Media Query for Mobile Devices */
-@media (max-width: 768px) {
-    .TabArea {
-        /* Adjust the size for mobile */
-        min-height: 20vh;
-    }
-    
+@media (max-width: 480px) {
     .TabButton {
         /* Adjust the size for mobile */
         min-height: 70px;
