@@ -17,6 +17,9 @@ body
 .TabButton 
 {
     padding: 1vh 2vh;
+    min-height: 50px;
+    min-width: 150px;
+
     margin: 2vh;
     border: none;
     background-color: #4CAF50;
