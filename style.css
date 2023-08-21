@@ -14,13 +14,6 @@ body
     background-color: #f2f2f2;
 }
 
-@media (max-width: 768px) { /* Adjust the breakpoint as needed */
-    .TabButton {
-        font-size: 2.5vw; /* Increase the font size for smaller screens */
-    }
-}
-
-
 .TabButton 
 {
     padding: 1vh 2vh;
