@@ -1,34 +1,50 @@
 body
 {
-    padding: 0;
-    margin: 0;
+    /*Sizes*/
+    padding: 0px;
+    margin: 0px;
+    /*Colours*/
     background-color: white;
-
 }
 
-.TabArea {
+.TabArea 
+{
+    /*Alignment*/
+    justify-content: center;
+    /*Colours*/
+    background-color: whitesmoke;
+    /*Other*/
     min-height: 5vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: whitesmoke;
 }
 
-.TabButton {
-    padding: 1vh 2vh;
-    min-height: 50px;
-    min-width: 150px;
-    padding: 10px 20px;
+.TabButton 
+{
+    /*Sizes*/
+    min-height: 40px;
+    min-width: 140px;
+    margin: 5px;
+    padding: 0px;
+    /*Border*/
+    border-radius: 5px;
     border: none;
+    /*Text*/
     color: darkgrey;
-    background-color: whitesmoke;
-    cursor: pointer;
-    border-radius: 3px;
     font-size: 17px;
+    /*Colours*/
+    background-color: whitesmoke;
 }
 
 .TabButton:hover 
 {
+    /*Border*/
+    border: solid;
+    border-width: 1px;
+    border-color: blue;
+    /*Colours*/
     background-color: lightgrey;
 }
 
+image{
+   image-si
+}
