@@ -37,14 +37,7 @@ body
 
 .TabButton:hover 
 {
-    /*Border*/
-    border: solid;
-    border-width: 1px;
-    border-color: blue;
     /*Colours*/
-    background-color: lightgrey;
+    background-color: #e7e7e7;
 }
 
-image{
-   image-si
-}
